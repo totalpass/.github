@@ -65,6 +65,7 @@ jobs:
       - name: Publish New Semantic Version Release
         uses: totalpass/semantic-version-release-action
         with:
+          github-user-name: "totalpass-deploy"
           github-token: ${{ secrets.SEMANTIC_RELEASE_VERSION_ACTION }}
           semantic-type: ${{ inputs.SEMANTIC_TYPE }}
 
@@ -115,5 +116,6 @@ jobs:
       - name: Publish New Semantic Version Release
         uses: totalpass/semantic-version-release-action
         with:
+          github-user-name: "totalpass-deploy"
           github-token: ${{ secrets.SEMANTIC_RELEASE_VERSION_ACTION }}
           semantic-type: ${{ env.SEMANTIC_TYPE }}
