@@ -38,7 +38,7 @@ jobs:
       - name: Checkout Repository Code
         uses: actions/checkout@v3
         with:
-          token: ${{ secrets.YOUR_TOKEN }}
+          token: ${{ secrets.SEMANTIC_RELEASE_VERSION_ACTION }}
           fetch-depth: 30
       
       - name: Install changie.dev
@@ -65,7 +65,7 @@ jobs:
       - name: Publish New Semantic Version Release
         uses: totalpass/semantic-version-release-action
         with:
-          github-token: ${{ secrets.YOUR_TOKEN }}
+          github-token: ${{ secrets.SEMANTIC_RELEASE_VERSION_ACTION }}
           semantic-type: ${{ inputs.SEMANTIC_TYPE }}
 
   automatic-semantic-version-release:
@@ -75,7 +75,7 @@ jobs:
       - name: Checkout Repository Code
         uses: actions/checkout@v3
         with:
-          token: ${{ secrets.YOUR_TOKEN }}
+          token: ${{ secrets.SEMANTIC_RELEASE_VERSION_ACTION }}
           fetch-depth: 30
       
       - name: Install changie.dev
@@ -115,5 +115,5 @@ jobs:
       - name: Publish New Semantic Version Release
         uses: totalpass/semantic-version-release-action
         with:
-          github-token: ${{ secrets.YOUR_TOKEN }}
+          github-token: ${{ secrets.SEMANTIC_RELEASE_VERSION_ACTION }}
           semantic-type: ${{ env.SEMANTIC_TYPE }}
