@@ -24,9 +24,9 @@ All types of changes this pull request introduces:
 
 The checklist helps ensure that your changes meet the project's standards and are ready for review and integration. Mark each item with an 'x' once it's completed.
 
-- [ ] **Tested Changes:** I have thoroughly tested and validated all the changes made in this pull request.
-- [ ] **Documentation Updated:** The documentation has been updated to reflect the modifications introduced (if applicable).
-- [ ] **Clear Commit Messages:** The commit messages are clear, concise, and follow the project's commit message guidelines.
+- [ ] **Tested changes:** I have thoroughly tested and validated all the changes made in this pull request.
+- [ ] **Documentation updated:** The documentation has been updated to reflect the modifications introduced (if applicable).
+- [ ] **Clear commit messages:** The commit messages are clear, concise, and follow the project's commit message guidelines.
 <!-- - [ ] [Add any project-specific checklist items here] -->
 
 
