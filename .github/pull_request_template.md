@@ -1,6 +1,6 @@
 <!-- 
 **********************************************************************
-📖 Guia de Code Review: https://www.notion.so/totalpass/Guia-de-Code-Review-352e4e306e06810c9929f5841716016f 
+📖 Guia de Code Review da TotalPass: https://www.notion.so/totalpass/Guia-de-Code-Review-352e4e306e06810c9929f5841716016f 
 **********************************************************************
 -->
 
