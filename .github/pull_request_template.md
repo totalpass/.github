@@ -40,8 +40,9 @@ Ops, ainda não tem uma descrição aqui 👀
 <!-- Descreva como as mudanças foram testadas.
      Se fluxos críticos ficaram sem cobertura, justifique aqui. -->
 
-## Prints
-<!-- Se aplicável, adicione prints ou gravações de tela que ilustrem o comportamento antes e depois da mudança. -->
+## Evidências
+<!-- Se aplicável, adicione evidências que ilustrem o comportamento antes e depois da mudança.
+     Exemplos: prints, gravações de tela, respostas de API (JSON), logs, traces, métricas. -->
 
 ## Checklist
 - [ ] Revisei meu próprio diff antes de abrir para revisão
